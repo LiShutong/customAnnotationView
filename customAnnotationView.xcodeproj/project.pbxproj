@@ -15,6 +15,11 @@
 		4B50C19A1ED6E46200D1D7B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B50C1981ED6E46200D1D7B2 /* LaunchScreen.storyboard */; };
 		4B50C1A51ED6E46200D1D7B2 /* customAnnotationViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B50C1A41ED6E46200D1D7B2 /* customAnnotationViewTests.m */; };
 		4B50C1B01ED6E46200D1D7B2 /* customAnnotationViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B50C1AF1ED6E46200D1D7B2 /* customAnnotationViewUITests.m */; };
+		4B50C1C31ED6E48C00D1D7B2 /* AnnotationDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B50C1BE1ED6E48C00D1D7B2 /* AnnotationDemoViewController.m */; };
+		4B50C1C41ED6E48C00D1D7B2 /* CustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B50C1C01ED6E48C00D1D7B2 /* CustomAnnotationView.m */; };
+		4B50C1C51ED6E48C00D1D7B2 /* CustomPaopaotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B50C1C21ED6E48C00D1D7B2 /* CustomPaopaotView.m */; };
+		4B50C1C71ED6E8EA00D1D7B2 /* AnnotationDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B50C1C61ED6E8EA00D1D7B2 /* AnnotationDemoViewController.xib */; };
+		7C035BA4C49DDDDE4122DB50 /* Pods_customAnnotationView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D1D5A7DD6295D99F2A7DCE6 /* Pods_customAnnotationView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EEB8312C1E4B5FB2162D65D /* Pods-customAnnotationView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-customAnnotationView.release.xcconfig"; path = "Pods/Target Support Files/Pods-customAnnotationView/Pods-customAnnotationView.release.xcconfig"; sourceTree = "<group>"; };
+		371041E3E7115D09EFFC0212 /* Pods-customAnnotationView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-customAnnotationView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-customAnnotationView/Pods-customAnnotationView.debug.xcconfig"; sourceTree = "<group>"; };
 		4B50C1871ED6E46200D1D7B2 /* customAnnotationView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = customAnnotationView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B50C18B1ED6E46200D1D7B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4B50C18D1ED6E46200D1D7B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,14 @@
 		4B50C1AB1ED6E46200D1D7B2 /* customAnnotationViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = customAnnotationViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B50C1AF1ED6E46200D1D7B2 /* customAnnotationViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = customAnnotationViewUITests.m; sourceTree = "<group>"; };
 		4B50C1B11ED6E46200D1D7B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B50C1BD1ED6E48C00D1D7B2 /* AnnotationDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnotationDemoViewController.h; sourceTree = "<group>"; };
+		4B50C1BE1ED6E48C00D1D7B2 /* AnnotationDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnotationDemoViewController.m; sourceTree = "<group>"; };
+		4B50C1BF1ED6E48C00D1D7B2 /* CustomAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotationView.h; sourceTree = "<group>"; };
+		4B50C1C01ED6E48C00D1D7B2 /* CustomAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotationView.m; sourceTree = "<group>"; };
+		4B50C1C11ED6E48C00D1D7B2 /* CustomPaopaotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPaopaotView.h; sourceTree = "<group>"; };
+		4B50C1C21ED6E48C00D1D7B2 /* CustomPaopaotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPaopaotView.m; sourceTree = "<group>"; };
+		4B50C1C61ED6E8EA00D1D7B2 /* AnnotationDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnnotationDemoViewController.xib; sourceTree = "<group>"; };
+		7D1D5A7DD6295D99F2A7DCE6 /* Pods_customAnnotationView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_customAnnotationView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C035BA4C49DDDDE4122DB50 /* Pods_customAnnotationView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +101,8 @@
 				4B50C1A31ED6E46200D1D7B2 /* customAnnotationViewTests */,
 				4B50C1AE1ED6E46200D1D7B2 /* customAnnotationViewUITests */,
 				4B50C1881ED6E46200D1D7B2 /* Products */,
+				F53F8524564AD51FEB2C759E /* Pods */,
+				9113EAA8CB3583BE71636523 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +119,13 @@
 		4B50C1891ED6E46200D1D7B2 /* customAnnotationView */ = {
 			isa = PBXGroup;
 			children = (
+				4B50C1C61ED6E8EA00D1D7B2 /* AnnotationDemoViewController.xib */,
+				4B50C1BD1ED6E48C00D1D7B2 /* AnnotationDemoViewController.h */,
+				4B50C1BE1ED6E48C00D1D7B2 /* AnnotationDemoViewController.m */,
+				4B50C1BF1ED6E48C00D1D7B2 /* CustomAnnotationView.h */,
+				4B50C1C01ED6E48C00D1D7B2 /* CustomAnnotationView.m */,
+				4B50C1C11ED6E48C00D1D7B2 /* CustomPaopaotView.h */,
+				4B50C1C21ED6E48C00D1D7B2 /* CustomPaopaotView.m */,
 				4B50C18D1ED6E46200D1D7B2 /* AppDelegate.h */,
 				4B50C18E1ED6E46200D1D7B2 /* AppDelegate.m */,
 				4B50C1901ED6E46200D1D7B2 /* ViewController.h */,
@@ -140,6 +165,23 @@
 			path = customAnnotationViewUITests;
 			sourceTree = "<group>";
 		};
+		9113EAA8CB3583BE71636523 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D1D5A7DD6295D99F2A7DCE6 /* Pods_customAnnotationView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F53F8524564AD51FEB2C759E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				371041E3E7115D09EFFC0212 /* Pods-customAnnotationView.debug.xcconfig */,
+				0EEB8312C1E4B5FB2162D65D /* Pods-customAnnotationView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B50C1B41ED6E46200D1D7B2 /* Build configuration list for PBXNativeTarget "customAnnotationView" */;
 			buildPhases = (
+				460033541262646D81704278 /* [CP] Check Pods Manifest.lock */,
 				4B50C1831ED6E46200D1D7B2 /* Sources */,
 				4B50C1841ED6E46200D1D7B2 /* Frameworks */,
 				4B50C1851ED6E46200D1D7B2 /* Resources */,
+				EF7B571EC9E526F94996F210 /* [CP] Embed Pods Frameworks */,
+				6D84EEB391392C71AD7089E8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,6 +294,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B50C1C71ED6E8EA00D1D7B2 /* AnnotationDemoViewController.xib in Resources */,
 				4B50C19A1ED6E46200D1D7B2 /* LaunchScreen.storyboard in Resources */,
 				4B50C1971ED6E46200D1D7B2 /* Assets.xcassets in Resources */,
 				4B50C1951ED6E46200D1D7B2 /* Main.storyboard in Resources */,
@@ -271,13 +317,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		460033541262646D81704278 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6D84EEB391392C71AD7089E8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-customAnnotationView/Pods-customAnnotationView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF7B571EC9E526F94996F210 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-customAnnotationView/Pods-customAnnotationView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4B50C1831ED6E46200D1D7B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B50C1C31ED6E48C00D1D7B2 /* AnnotationDemoViewController.m in Sources */,
 				4B50C1921ED6E46200D1D7B2 /* ViewController.m in Sources */,
+				4B50C1C41ED6E48C00D1D7B2 /* CustomAnnotationView.m in Sources */,
 				4B50C18F1ED6E46200D1D7B2 /* AppDelegate.m in Sources */,
+				4B50C1C51ED6E48C00D1D7B2 /* CustomPaopaotView.m in Sources */,
 				4B50C18C1ED6E46200D1D7B2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +522,7 @@
 		};
 		4B50C1B51ED6E46200D1D7B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 371041E3E7115D09EFFC0212 /* Pods-customAnnotationView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LV289LJRUB;
@@ -437,6 +535,7 @@
 		};
 		4B50C1B61ED6E46200D1D7B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EEB8312C1E4B5FB2162D65D /* Pods-customAnnotationView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LV289LJRUB;
@@ -516,6 +615,7 @@
 				4B50C1B61ED6E46200D1D7B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B50C1B71ED6E46200D1D7B2 /* Build configuration list for PBXNativeTarget "customAnnotationViewTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +624,7 @@
 				4B50C1B91ED6E46200D1D7B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B50C1BA1ED6E46200D1D7B2 /* Build configuration list for PBXNativeTarget "customAnnotationViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +633,7 @@
 				4B50C1BC1ED6E46200D1D7B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
