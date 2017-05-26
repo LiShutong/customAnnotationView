@@ -17,6 +17,6 @@
 
 @property (nonatomic, strong) UIView *calloutView;
 
-@property (nonatomic, readonly) CustomPaopaotView *paopaoView;
+//@property (nonatomic, readonly) CustomPaopaotView *paopaoView;
 
 @end

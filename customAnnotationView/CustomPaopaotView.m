@@ -41,7 +41,7 @@
     // 添加图片，即商户图
     self.portraitView = [[UIImageView alloc] initWithFrame:CGRectMake(kPortraitMargin, kPortraitMargin, kPortraitWidth, kPortraitHeight)];
     
-    self.portraitView.backgroundColor = [UIColor blackColor];
+    self.portraitView.backgroundColor = [UIColor clearColor];
     [self addSubview:self.portraitView];
     
     // 添加标题，即商户名
